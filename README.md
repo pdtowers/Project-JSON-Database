@@ -18,34 +18,62 @@ After “delete”, the user should specify the number of the cell. If the numbe
 If the user wants to exit the program, he should enter “exit.”
 
 Output example
-The lines that start with ? represent the user input. 
+The lines that start with > represent the user input. 
 
-? get 1 \n
+> get 1
+
 ERROR
-? set 1 Hello world!
+
+> set 1 Hello world!
+
 OK
-? set 1 HelloWorld!
+
+> set 1 HelloWorld!
+
 OK
-? get 1
+
+> get 1
+
 HelloWorld!
-? delete 1
+
+> delete 1
+
 OK
-? delete 1
+
+> delete 1
+
 OK
-? get 1
+
+> get 1
+
 ERROR
-? set 55 Some text here
+
+> set 55 Some text here
+
 OK
-? get 55
+
+> get 55
+
 Some text here
-? get 56
+
+> get 56
+
 ERROR
-? delete 55
+
+> delete 55
+
 OK
-? delete 56
+
+> delete 56
+
 OK
-? delete 100
+
+> delete 100
+
 OK
-? delete 101
+
+> delete 101
+
 ERROR
-? exit
+
+> exit
