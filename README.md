@@ -20,7 +20,7 @@ If the user wants to exit the program, he should enter “exit.”
 Output example
 The lines that start with ? represent the user input. 
 
-? get 1
+? get 1 \n
 ERROR
 ? set 1 Hello world!
 OK
